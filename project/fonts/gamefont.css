@@ -1,11 +1,43 @@
 @font-face {
     font-family: GameFont;
-    src: url("mplus-1m-regular.ttf");
+    src: url("OMORI_GAME2.ttf");
 }
 
-.IIV::-webkit-media-controls-play-button,
-video::-webkit-media-controls-start-playback-button {
-    opacity: 0;
-    pointer-events: none;
-    width: 5px;
+body {
+    overflow: hidden;
+}
+
+#fpsCounterBox {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 90px;
+    height: 40px;
+    background: #222;
+    opacity: 0.8;
+    z-index: 8;
+}
+#fpsCounterLabel {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 5px 10px;
+    height: 30px;
+    line-height: 32px;
+    font-size: 24px;
+    font-family: GameFont;
+    color: #fff;
+    text-align: left;
+}
+#fpsCounterNumber {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 28px;
+    font-family: GameFont;
+    color: #fff;
+    text-align: right;
 }
