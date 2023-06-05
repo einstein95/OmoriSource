@@ -27,10 +27,10 @@ message_7:
       text: \n<SOMETHING>\fn<OMORI_GAME>Sweet little brother.\! It is time to rest...\!<br>Shut your eyes... and stay very, very still...
 
 message_8:
-      text: NO
+      text: "NO"
 
 message_9:
-      text: YES
+      text: "YES"
 
 message_10:
       text: You feel something crawling up your leg.

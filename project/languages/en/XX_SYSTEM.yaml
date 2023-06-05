@@ -124,17 +124,17 @@ message_30:
 # - YES/NO
 # -----------------------------------------------
 message_10:
-    text: YES
+    text: "YES"
 message_11:
-    text: NO
+    text: "NO"
 
 # -----------------------------------------------
 # - NOD / SHAKE
 # -----------------------------------------------
 message_12:
-    text: YES
+    text: "YES"
 message_13:
-    text: NO
+    text: "NO"
 
 # -----------------------------------------------
 # - GO OUTSIDE / CLOSE DOOR

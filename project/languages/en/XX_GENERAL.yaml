@@ -26,9 +26,9 @@ message_3:
 # - YES/NO
 # -----------------------------------------------
 message_4:
-    text: YES
+    text: "YES"
 message_5:
-    text: NO
+    text: "NO"
 
 # -----------------------------------------------
 # - X LEFT THE PARTY
@@ -56,9 +56,9 @@ message_9:
 # - NOD / SHAKE
 # -----------------------------------------------
 message_10:
-    text: YES
+    text: "YES"
 message_11:
-    text: NO
+    text: "NO"
 
 # -----------------------------------------------
 # - FOUND ITEM
