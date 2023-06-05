@@ -237,7 +237,7 @@ AtlasManager.loadAllAtlasImages = function() {
 };
 
 // Initialize Atlas Data
-//AtlasManager.initAtlasData()
+AtlasManager.initAtlasData()
 
 
 

@@ -191,7 +191,8 @@ const YED_TiledParameters = PluginManager.parameters("YED_Tiled");
 	                return "continue";
 	            }
 
-				if(Utils.isOptionValid("test")) {
+				//if(Utils.isOptionValid("test")) {
+				if(true) {
 					DataManager._tilesetToLoad++;
 					var filename = tileset.source.replace(/^.*[\\\/]/, '');
 					var xhr = new XMLHttpRequest();

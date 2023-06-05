@@ -355,7 +355,8 @@ Yanfly.PreloadedMaps = Yanfly.PreloadedMaps || [];
 Yanfly.loadMapData = function(mapId) {
   mapId = mapId.clamp(1, 999);
   if (Yanfly.PreloadedMaps[mapId]) return;
-  if(Utils.isOptionValid("test")) {
+  // if(Utils.isOptionValid("test")) {
+  if(true) {
     var src = 'Map%1.json'.format(mapId.padZero(3));
     var xhr = new XMLHttpRequest();
     var url = 'data/' + src;
